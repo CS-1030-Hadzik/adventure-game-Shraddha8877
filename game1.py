@@ -1,13 +1,14 @@
-'''
-Adventure Game 
-Author : Shraddha8877
+"""
+Adventure Game
+Author: Shraddha
+Version: 1.0
+Description:
+This is a text-based adventure game where the player makes choices
+to navigate through a mysterious forest.
+"""
 
-Version : 1.0
-Description :
-This is a text-based adventure game where the player makes choices to navigate through a mysterious forest.
-'''
-
-print("Welcome to the Adventure Game!")  
+# Welcome message and introduction
+print("Welcome to the Adventure Game!")
 print("Your journey begins here...")
 
 # Ask for the player's name
@@ -36,5 +37,4 @@ if decision == "yes":
 elif decision == "no":
     print(player_name + ", you decide to wait. Perhaps courage will find you later.") # Concatenation example
 else:
-    print("Confused, you stand still, unsure of what to do."')
-
+    print("Confused, you stand still, unsure of what to do.")
