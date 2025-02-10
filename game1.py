@@ -1,12 +1,9 @@
-"""
-Adventure Game
-Author: Shraddha
-Version: 1.0
-Description:
-This is a text-based adventure game where the player makes choices
-to navigate through a mysterious forest.
-"""
 
+"""
+Author: Shraddha Chudal
+Version: 1.0
+Description: This program starts the adventure game.
+"""
 # Welcome message and introduction
 print("Welcome to the Adventure Game!")
 print("Your journey begins here...")
